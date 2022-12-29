@@ -1,0 +1,31 @@
+.metricas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 5em 5em 5em;
+}
+
+.metricas__individual {
+    width: 18vw;
+    text-align: left;
+}
+
+.metricas__principal {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho);
+    padding: 0.5em 0;
+}
+
+.metricas__titulo {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+}
+
+.metricas__texto {
+    font-weight: 400;
+    color: var(--cinza);
+}

@@ -1,0 +1,62 @@
+.navegacao,
+.menu,
+.logo {
+    display: flex;
+}
+
+.navegacao {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2em;
+}
+
+.menu {
+    width: 60%;
+    justify-content: space-around;
+    padding: 2em 1em;
+}
+
+.logo {
+    align-items: center;
+}
+
+.container__logo {
+    margin-right: 1em;
+}
+
+.container__logo--titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container__menu--lista {
+    display: flex;
+    padding-top: 0.3em;
+}
+
+.container__menu--item {
+    margin-right: 3em;
+}
+
+.container__menu--link {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.container__item {
+    padding-top: 0.3em;
+}
+
+.container__item__botao {
+    margin-right: 3em;
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.menu__cadastrar {
+    background-color: var(--vinho);
+    color: var(--branco);
+    padding: 0.7em 1em;
+    border-radius: 10px;
+}

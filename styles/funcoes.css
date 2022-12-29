@@ -1,0 +1,40 @@
+.funcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center; 
+}
+
+.funcoes__grupo {
+    text-align: left;
+    width: 60%;
+}
+
+.funcoes__titulo {
+    color: var(--cinza-escuro);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.funcoes__individuais{
+    margin: 2em 0;
+    padding: 1.5em;
+}
+
+.funcoes__individuais--titulo{
+    margin-bottom: 2em;
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.funcoes__lista{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.funcoes__item {
+    margin-right: 2em;
+    color: var(--cinza);
+    font-weight: 500;
+}

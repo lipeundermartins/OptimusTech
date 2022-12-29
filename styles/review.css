@@ -1,0 +1,43 @@
+.review {
+    margin: 0 1em 3em 1em;
+    padding: 3em;
+    text-align: center;    
+}
+
+.review__principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.review__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+    margin-bottom: 1em;
+}
+
+.review__descricao {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.perfil__imagem {
+    margin-bottom: 1em;
+}
+
+.perfil__nome {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    margin-bottom: 0.5em;
+}
+
+.perfil__profissao {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
